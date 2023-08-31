@@ -50,5 +50,9 @@
                 this.rightTree.Display();
             }
         }
+        public void GetSIze()
+        {
+            Console.WriteLine("\nSize of Binary Tree is: " + (this.leftCount + this.rightCount + 1));
+        }
     }
 }
